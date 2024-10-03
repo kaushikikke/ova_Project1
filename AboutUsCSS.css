@@ -1,0 +1,72 @@
+.about-us {
+    background-color: black; /* Dark background for the about section */
+    color: #ffffff; /* White text */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font */
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+.intro {
+    font-style: italic; /* Italicize the intro paragraph */
+    margin-bottom: 20px; /* Space below the intro */
+}
+
+.white-section {
+    background-color: #ffffff; /* White background */
+    color: #000; /* Black text */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; /* Margin above and below */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+.card-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between cards */
+    margin: 20px 0; /* Margin for the grid */
+    background-color: white; /* White background for the card container */
+    padding: 20px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Light shadow for the container */
+}
+
+.card {
+    background-color: #1f1f1f; /* Dark card background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Card shadow */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+}
+
+.card h4 {
+    color: #00bcd4; /* Teal color for card headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+.card p {
+    margin: 5px 0; /* Margin for paragraphs */
+    color: #e0e0e0; /* Lighter text for paragraphs */
+}
+
+.about-us ul {
+    line-height: 1.6; /* Improve readability */
+    margin-left: 20px; /* Indentation */
+}
+
+.about-us a {
+    color: #00bcd4; /* Teal link color */
+    text-decoration: underline; /* Underline links */
+}
+
+.about-us a:hover {
+    color: #ffffff; /* White on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
